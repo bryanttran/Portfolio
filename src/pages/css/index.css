@@ -1,0 +1,21 @@
+h5 {
+    margin-top: 0 !important;
+}
+
+.intro {
+    border-bottom: 1px solid black;
+}
+
+.row {
+    margin: 1.45rem 0
+}
+
+.test {
+    max-width: 600px !important;
+}
+
+@media screen and (max-width:992px) {
+    .pitch{
+        margin-top: 1.5rem;
+    }
+} 
