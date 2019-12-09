@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./css/layout.css"
 
 const Layout = ({ children }) => {
@@ -29,10 +30,9 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          Copyright Bryant Tran {new Date().getFullYear()}
-        </footer>
+
       </div>
+      <Footer />
     </>
   )
 }

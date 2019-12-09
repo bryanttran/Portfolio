@@ -16,16 +16,16 @@ const IndexPage = () => (
     
     <div className='row'>
       <div className='col s12 m12 l6 '>
-       <Image />
+       <Image imageName='BryantTran.jpg' />
       </div>
       <section className='col s12 m12 l6 pitch'>
         <h5 className='bold'>My Elevator pitch:</h5>
-        <p>I am currently a full stack engineer at InfoImage, in which I grew my strengths and enjoyment in full-stack development. The use of new and modern technologies excite me, such as <strong>React</strong> and <strong>NodeJS</strong>. One of the side projects which helped grow my modern skillset was my <Link to="/page-2/">Internal Tools.</Link> I also have a solid amount of experience in other places such as <strong>Java, Oracle SQL, and MongoDB</strong>. Outside of development, I enjoy learning about music theory and playing first person shooters. I am currently open to new opportunities so feel free to <a href="mailto:bryant.t.tran1@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/bryanttran1/">LinkedIn</a>.</p>
+        <p>I am currently a full stack engineer at InfoImage, in which I grew my strengths and enjoyment in full-stack development. The use of new and modern technologies excite me, such as <strong>React</strong> and <strong>NodeJS</strong>. One of the side projects which helped grow my modern skillset was my <Link to="/page-2/">Internal Tools.</Link> I also have a solid amount of experience in other places such as <strong>Java, Oracle SQL, and MongoDB</strong>. Outside of development, I enjoy learning about music theory. I am currently open to new opportunities so feel free to <a href="mailto:bryant.t.tran1@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/bryanttran1/">LinkedIn</a>.</p>
       </section>
     </div>
 
     <div className='center-align'>
-      <Link className="waves-effect waves-light btn " to="/page-2/">Go to page 2</Link>
+      <Link className="waves-effect waves-light btn " to="/page-2/">Check out my work and experience!</Link>
     </div>
   </Layout>
 )
