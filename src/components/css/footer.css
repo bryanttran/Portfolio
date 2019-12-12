@@ -1,8 +1,20 @@
 .footer-container {
     background-color: blueviolet;
     width: 100%;
-    height: 200px;
+    height: auto;
+    padding-top: 20px;
     margin-bottom: 0px !important;
+}
+
+.footer-image {
+    padding: 10px;
+    opacity: .8;
+    transition: all .3s;
+}
+
+.footer-image:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 img {

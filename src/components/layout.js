@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
 import "./css/layout.css"
+import "./css/materialize.min.css"
 
 const Layout = ({ children }) => {
   /*const data = useStaticQuery(graphql`
@@ -19,7 +20,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></link>
       <Header />
       <div
         style={{
