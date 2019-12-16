@@ -12,9 +12,16 @@ export class footer extends Component {
             <div className='center-align valign-wrapper'>
             
                 <div className='center-align footer-container'>
-                    <img className='tooltipped footer-image' data-position="bottom" data-tooltip="LinkedIn" src={Github} />
-                    <img className='footer-image' src={LinkedIn} />
-                    <img className='footer-image' src={Resume} /> <br />
+                    <a href='https://www.linkedin.com/in/bryanttran1/' target="_blank" rel="noopener noreferrer">
+                        <img className='footer-image' src={LinkedIn} />
+                    </a>
+                    <a href='https://github.com/bryanttran' target="_blank" rel="noopener noreferrer">
+                        <img className='tooltipped footer-image' data-position="bottom" data-tooltip="LinkedIn" src={Github} />
+                    </a>
+                    <a href='' target="_blank" rel="noopener noreferrer">
+                        <img className='footer-image' src={Resume} /> <br />
+                    </a>
+                    
                     <p className=' center-block '>
                         Copyright Bryant Tran {new Date().getFullYear()} <br />
                         Website built using GatsbyJS and Materialize CSS.

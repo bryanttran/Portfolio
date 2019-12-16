@@ -10,8 +10,9 @@ h5 {
     margin: 1.45rem 0
 }
 
-.test {
-    max-width: 600px !important;
+.headshotImage {
+    border-radius: 100% ;
+    border: 3px solid black ;
 }
 
 @media screen and (max-width:992px) {
