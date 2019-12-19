@@ -1,8 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Img from "gatsby-image"
+import { useStaticQuery, graphql } from "gatsby"
+
 import Layout from "../components/layout"
-import Image from "../components/image"
+//import Image from "../components/image"
 import SEO from "../components/seo"
 
 import './css/index.css'
@@ -16,7 +19,7 @@ const IndexPage = () => (
     
     <div className='row'>
       <div className='col s12 m6 l5 offset-m3'>
-       <Image className='headshotImage' imageName='BryantTran.jpg' />
+       <Image className='headshotImage' alt='head-shot-image' />
       </div>
       <section className='col s12 m12 l7 pitch'>
         <h5 className='bold'>My Elevator pitch:</h5>
@@ -29,5 +32,24 @@ const IndexPage = () => (
     </div>
   </Layout>
 )
+
+export const Image = () => {
+  const query = useStaticQuery(graphql`
+    query {
+      placeholderImage: file(relativePath: { eq: "BryantTran1.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200 ) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+
+  return <Img 
+    className='headshotImage'
+    fluid={query.placeholderImage.childImageSharp.fluid} 
+  />
+}
 
 export default IndexPage
