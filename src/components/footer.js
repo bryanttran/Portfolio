@@ -10,8 +10,8 @@ export class footer extends Component {
     render() {
         return (
             <div className='center-align valign-wrapper'>
-            
                 <div className='center-align footer-container'>
+                  <h3>Lets get in touch!</h3>
                     <a href='https://www.linkedin.com/in/bryanttran1/' target="_blank" rel="noopener noreferrer">
                         <img className='footer-image' src={LinkedIn} />
                     </a>

@@ -10,47 +10,47 @@ const internalTools = () => (
   <Layout>
     <SEO title='Page two' />
     <section className='center-align intro'>
-      <h3>Internal tools project specs</h3>
+      <h3>High level overview of the Internal Tools project</h3>
     </section>
     <div className='row'>
-        <div className='col s7 content-wrapper'>
-            <h5>
-                Project overview
-            </h5>
+        <div className='col s8 content-wrapper'>
+            <h4>
+                As a user I want to...
+            </h4>
             <p>
-                test
+                Offset simple Oracle database CRUD operations such that non-technical departments can change the database without giving them access and teaching them SQL.
             </p>
-            <h5>
+            <h4>
                 Website design
-            </h5>
+            </h4>
             <p>
                 test
             </p>
-            <h5>
-                Caveats & speedbumps
-            </h5>
+            <h4>
+                Caveats &amp; speedbumps
+            </h4>
             <p>
                 test
             </p>            
         </div>
-        <div className='col push-s1 s4'>
-        <div className='col s12 content-wrapper center-align'>
-            <h5>
-                Internal tools
-            </h5>
-            <p>
-            Internal tools for InfoIMAGE used to help alleviate basic Oracle SQL CRUD operations from technical departments.
-            </p>
+        <div className='col s4 sidebar-wrapper'>
+            <div className='col s12 content-wrapper center-align'>
+                <h4>
+                    Internal tools
+                </h4>
+                <p>
+                Internal tools for InfoIMAGE used to help alleviate basic Oracle SQL CRUD operations from technical departments.
+                </p>
+            </div>
+            <div className='col s12 content-wrapper center-align'>
+                <h4>
+                    Technology stack
+                </h4>
+                <p>
+                Internal tools for InfoIMAGE used to help alleviate basic Oracle SQL CRUD operations from technical departments.
+                </p>
+            </div>
         </div>
-        <div className='col s12 content-wrapper center-align'>
-            <h5>
-                Internal tools
-            </h5>
-            <p>
-            Internal tools for InfoIMAGE used to help alleviate basic Oracle SQL CRUD operations from technical departments.
-            </p>
-        </div>
-      </div>
     </div>
   </Layout>
 )

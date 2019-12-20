@@ -1,5 +1,18 @@
+html {
+    font-family: libre baskerville,Georgia,serif;
+    color: #484848;
+}
+
+h5, h4 {
+    color: #cc8b14;
+}
+
 .intro {
     border-bottom: 1px solid black;
+}
+
+.pitch-desc{
+    font-size: 20px;
 }
 
 .row {

@@ -1,5 +1,11 @@
+
+
 .content-wrapper {
-    background-color: #c9d9f2;
+    background-color: #e9eff9 ;
     border-radius: 15px;
     margin-top: 25px;
+}
+
+.sidebar-wrapper {
+    padding-right: 0 !important;
 }

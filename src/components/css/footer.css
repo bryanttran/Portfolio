@@ -1,9 +1,10 @@
 .footer-container {
-    background-color: blueviolet;
+    background-color: #538fdc   ;
     width: 100%;
     height: auto;
     padding-top: 20px;
     margin-bottom: 0px !important;
+    color: #101010;
 }
 
 .footer-image {
