@@ -8,16 +8,6 @@ import "./css/layout.css"
 import "./css/materialize.min.css"
 
 const Layout = ({ children }) => {
-  /*const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)*/
-
   return (
     <>
       <Header />

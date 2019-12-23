@@ -8,7 +8,7 @@ import '../css/internalTools.css'
 
 const internalTools = () => (
   <Layout>
-    <SEO title='Page two' />
+    <SEO title='Internal Tools' />
     <section className='center-align intro'>
       <h3>High level overview of the Internal Tools project</h3>
     </section>
@@ -41,14 +41,18 @@ const internalTools = () => (
                 <p>
                 Internal tools for InfoIMAGE used to help alleviate basic Oracle SQL CRUD operations from technical departments.
                 </p>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
             </div>
             <div className='col s12 content-wrapper center-align'>
                 <h4>
                     Technology stack
                 </h4>
-                <p>
-                Internal tools for InfoIMAGE used to help alleviate basic Oracle SQL CRUD operations from technical departments.
-                </p>
+                <div className='row'>
+                    <div class="col s4">6-columns (one-half)</div>
+                    <div class="col s8">6-columns (one-half)</div>
+                </div>
             </div>
         </div>
     </div>

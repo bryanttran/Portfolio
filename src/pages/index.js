@@ -17,7 +17,7 @@ const IndexPage = () => (
       <h3>Hey There! I am Bryant, a software engineer based in San Jose, CA. Let's get to know each other.</h3>
     </section>
     
-    <div className='row'>
+    <div className='row pitch-container'>
       <div className='col s12 m6 l5 offset-m3'>
        <Image className='headshotImage' alt='head-shot-image' />
       </div>

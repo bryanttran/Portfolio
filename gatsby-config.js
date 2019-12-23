@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     title: `Bryant Tran`,
     description: `description`,
-    icon: `src/images/gatsby-icon.png`,
     author: `@Bryanttran`,
   },
   plugins: [
