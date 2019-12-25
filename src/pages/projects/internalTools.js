@@ -4,6 +4,11 @@ import { Link } from 'gatsby'
 import Layout from '../../components/layout'
 import SEO from '../../components/seo'
 
+import reactImg from '../../images/stack/React.svg'
+import nodeImg from '../../images/stack/nodejs.svg'
+import mongoImg from '../../images/stack/Oracle.svg'
+import oracleImg from '../../images/stack/Mongodb.svg'
+
 import '../css/internalTools.css'
 
 const internalTools = () => (
@@ -35,24 +40,69 @@ const internalTools = () => (
         </div>
         <div className='col s4 sidebar-wrapper'>
             <div className='col s12 content-wrapper center-align'>
-                <h4>
+                <h4 className='content-header'>
                     Internal tools
                 </h4>
                 <p>
                 Internal tools for InfoIMAGE used to help alleviate basic Oracle SQL CRUD operations from technical departments.
                 </p>
-                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                    <i class="material-icons right">send</i>
-                </button>
+                <a href='https://github.com/bryanttran/internal_tools' target="_blank" rel="noopener noreferrer" >
+                <button class="btn waves-effect waves-light" type="submit" name="action">View source code                </button>
+                </a>
+                
             </div>
-            <div className='col s12 content-wrapper center-align'>
-                <h4>
+            <div className='col s12 content-wrapper'>
+                <h4 className='center-align content-header'>
                     Technology stack
                 </h4>
-                <div className='row'>
-                    <div class="col s4">6-columns (one-half)</div>
-                    <div class="col s8">6-columns (one-half)</div>
+                <div className='row stack-row'>
+                    <div className="col s2 center-align">
+                        <img src={reactImg} alt='react-image' className='image-containter'/>
+                    </div>
+                    <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer" >
+                        <div className="col s9 stack-description valign-wrapper">
+                            <p>ReactJS</p>
+                            <i className="material-icons next-icon">navigate_next</i>
+                        </div>
+                    </a>
                 </div>
+
+                <div className='row stack-row'>
+                    <div className="col s2 center-align">
+                        <img src={nodeImg} alt='react-image' className='image-containter'/>
+                    </div>
+                    <a href='https://nodejs.org/en/' target="_blank" rel="noopener noreferrer" >
+                        <div className="col s9 stack-description valign-wrapper">
+                            <p>NodeJS</p>
+                            <i className="material-icons next-icon">navigate_next</i>
+                        </div>
+                    </a>
+                </div>
+
+                <div className='row stack-row'>
+                    <div className="col s2 center-align">
+                        <img src={mongoImg} alt='react-image' className='image-containter'/>
+                    </div>
+                    <a href='https://nodejs.org/en/' target="_blank" rel="noopener noreferrer" >
+                        <div className="col s9 stack-description valign-wrapper">
+                            <p>MongoDB</p>
+                            <i className="material-icons next-icon">navigate_next</i>
+                        </div>
+                    </a>
+                </div>
+
+                <div className='row stack-row'>
+                    <div className="col s2 center-align">
+                        <img src={oracleImg} alt='react-image' className='image-containter'/>
+                    </div>
+                    <a href='https://nodejs.org/en/' target="_blank" rel="noopener noreferrer" >
+                        <div className="col s9 stack-description valign-wrapper">
+                            <p>Oracle SQL</p>
+                            <i className="material-icons next-icon">navigate_next</i>
+                        </div>
+                    </a>
+                </div>
+
             </div>
         </div>
     </div>
