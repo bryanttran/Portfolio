@@ -14,19 +14,25 @@ const Projects = () => (
     <section className='center-align intro'>
       <h3>Lets check out my recent personal projects that I have been working on.</h3>
     </section>
-    <div className='row'>
-      <Link to='/projects/internalTools/' class='col s12 m12'>
-        <div className='card hoverable'>
-          <div className='card-image'>
-            <img src={internalTools} alt='internal-tools-image'/>
-            <span className='card-title'>Card Title</span>
+    <div className='container'>
+      <div className='row '>
+        <Link to='/projects/internalTools/' class='col s12 m12'>
+          <div className='card hoverable'>
+            <div className='card-image'>
+              <img src={internalTools} alt='internal-tools-image'/>
+            </div>
+            <div className='card-content'>
+              <h5 className='project-title'>InfoIMAGE Internal Tools </h5>
+              <h6>Full Stack development | Interactive design</h6>
+              <p className='project-description'>Internal tools for InfoIMAGE used to help alleviate simple Oracle SQL CRUD operations from technical departments.</p>
+            </div>
           </div>
-          <div className='card-content'>
-            <p>Internal tools for InfoIMAGE used to help alleviate basic Oracle SQL CRUD operations from technical departments.</p>
-          </div>
-        </div>
-      </Link>
+        </Link>
+      </div>
+
+
     </div>
+    
   </Layout>
 )
 

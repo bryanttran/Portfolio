@@ -2,9 +2,13 @@
     background-color: #538fdc   ;
     width: 100%;
     height: auto;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 0px !important;
     color: #101010;
+}
+
+.footer-title {
+    padding-bottom: 30px;
 }
 
 .footer-image {
@@ -18,6 +22,15 @@
     transform: scale(1.1);
 }
 
+.footer-text{
+    padding: 5px;
+}
+
 img {
     height: 120px;
+}
+
+.footer-tooltip{
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 14px;
 }

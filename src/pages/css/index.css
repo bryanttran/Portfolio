@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-
 html {
     font-family: libre baskerville,Georgia,serif;
     color: #484848;
 }
 
+strong {
+    font-weight: 600 !important;
+}
+
 h5, h4 {
     color: #cc8b14;
+    font-size: 32px;
 }
 
 .intro {
