@@ -25,7 +25,7 @@ export class footer extends Component {
                             <img className='tooltipped footer-image' src={Github} data-tip="Github"/>
                         </a>
 
-                        <a href='mailto:bryant.t.tran1@gmail.com' target="_blank" rel="noopener noreferrer" >
+                        <a href='mailto:bryant.t.tran1@gmail.com' >
                             <ReactTooltip className='footer-tooltip' place="top" type="dark" effect="solid"/>
                             <img className='tooltipped footer-image' src={Email} data-tip="Email"/>
                         </a>

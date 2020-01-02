@@ -6,10 +6,9 @@ import SEO from '../../components/seo'
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 
-import reactImg from '../../images/stack/React.svg'
-import nodeImg from '../../images/stack/nodejs.svg'
-import oracleImg from '../../images/stack/Oracle.svg'
-import mongoImg from '../../images/stack/Mongodb.svg'
+import htmlImg from '../../images/stack/html5.svg'
+import cssImg from '../../images/stack/css3.svg'
+import javascriptImg from '../../images/stack/javascript.svg'
 
 import '../css/internalTools.css'
 
@@ -24,11 +23,11 @@ const internalTools = () => (
 
             <h4>Website design</h4>
             <p>
-                Offset simple Oracle database CRUD operations such that non-technical departments can change the database without giving them access and teaching them SQL.
+                To create a simplistic portfolio from scratch using only HTML5, CSS3 and JavaScript.
             </p>
             <h4>Architecture design</h4>
             <p>
-                There are two iterations of the Internal Tools project. Both use the component framework, ReactJS but the backend specs changed due to which database was required during development. The first iteration used NodeJS' <a href='https://expressjs.com/' target="_blank" rel="noopener noreferrer">ExpressJS</a> to make API calls to the MongoDB database. The second iteration used the open source <a href='https://github.com/oracle/node-oracledb' target="_blank" rel="noopener noreferrer">OracleDB</a>, maintained by Oracle, to connect and perform CRUD operations on InfoIMAGE's Oracle SQL database. 
+                Having minimal experience with just the fundamentals of Front End Development at the time, I decided to be as barebone with the project as I could. I decided to stick with the basics and learned when I wanted the DOM to change to my liking rather than using the magic of JavaScript and CSS frameworks or libraries. 
             </p>
             <InternalToolsImage/>
 
@@ -36,12 +35,12 @@ const internalTools = () => (
         <div className='col s12 l4 sidebar-wrapper'>
             <div className='col s12 content-wrapper center-align'>
                 <h4 className='content-header'>
-                    Internal tools
+                    Portfolio 2017
                 </h4>
                 <p>
-                Internal tools for InfoIMAGE used to help alleviate basic Oracle SQL CRUD operations from technical departments.
+                First implementation barebone front end portfolio to showcase experience at the time.
                 </p>
-                <a href='https://github.com/bryanttran/internal_tools' target="_blank" rel="noopener noreferrer" >
+                <a href='https://github.com/bryanttran/bryanttran.github.io' target="_blank" rel="noopener noreferrer" >
                 <button class="btn waves-effect waves-light" type="submit" name="action">View source code                </button>
                 </a>
                 
@@ -52,50 +51,32 @@ const internalTools = () => (
                 </h4>
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={reactImg} alt='ReactJS-image' className='image-containter'/>
+                        <img src={htmlImg} alt='react-image' className='image-containter'/>
                     </div>
-                    <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
-                            <p>ReactJS</p>
+                            <p>HTML5</p>
                             <i className="material-icons next-icon">navigate_next</i>
                         </div>
-                    </a>
                 </div>
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={nodeImg} alt='NodeJS-image' className='image-containter'/>
+                        <img src={cssImg} alt='react-image' className='image-containter'/>
                     </div>
-                    <a href='https://nodejs.org/en/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
-                            <p>NodeJS</p>
+                            <p>CSS3</p>
                             <i className="material-icons next-icon">navigate_next</i>
                         </div>
-                    </a>
-                </div>
+                    </div>
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={oracleImg} alt='OracleDB-image' className='image-containter'/>
+                        <img src={javascriptImg} alt='react-image' className='image-containter'/>
                     </div>
-                    <a href='https://www.oracle.com/database/technologies/appdev/sql.html' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
-                            <p>Oracle SQL</p>
+                            <p>Javascript</p>
                             <i className="material-icons next-icon">navigate_next</i>
                         </div>
-                    </a>
-                </div>
-
-                <div className='row stack-row'>
-                    <div className="col s2 center-align">
-                        <img src={mongoImg} alt='MongoDB-image' className='image-containter'/>
-                    </div>
-                    <a href='https://www.mongodb.com/' target="_blank" rel="noopener noreferrer" >
-                        <div className="col s9 stack-description valign-wrapper">
-                            <p>MongoDB API</p>
-                            <i className="material-icons next-icon">navigate_next</i>
-                        </div>
-                    </a>
                 </div>
 
             </div>

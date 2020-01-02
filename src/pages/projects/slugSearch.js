@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../../components/layout'
 import SEO from '../../components/seo'
@@ -8,8 +9,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import reactImg from '../../images/stack/React.svg'
 import nodeImg from '../../images/stack/nodejs.svg'
-import oracleImg from '../../images/stack/Oracle.svg'
-import mongoImg from '../../images/stack/Mongodb.svg'
+import mongoImg from '../../images/stack/Oracle.svg'
+import oracleImg from '../../images/stack/Mongodb.svg'
 
 import '../css/internalTools.css'
 
@@ -52,7 +53,7 @@ const internalTools = () => (
                 </h4>
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={reactImg} alt='ReactJS-image' className='image-containter'/>
+                        <img src={reactImg} alt='react-image' className='image-containter'/>
                     </div>
                     <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -64,9 +65,9 @@ const internalTools = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={nodeImg} alt='NodeJS-image' className='image-containter'/>
+                        <img src={nodeImg} alt='react-image' className='image-containter'/>
                     </div>
-                    <a href='https://nodejs.org/en/' target="_blank" rel="noopener noreferrer" >
+                    <a href='https://www.mongodb.com/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
                             <p>NodeJS</p>
                             <i className="material-icons next-icon">navigate_next</i>
@@ -76,7 +77,7 @@ const internalTools = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={oracleImg} alt='OracleDB-image' className='image-containter'/>
+                        <img src={mongoImg} alt='react-image' className='image-containter'/>
                     </div>
                     <a href='https://www.oracle.com/database/technologies/appdev/sql.html' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -88,9 +89,9 @@ const internalTools = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={mongoImg} alt='MongoDB-image' className='image-containter'/>
+                        <img src={oracleImg} alt='react-image' className='image-containter'/>
                     </div>
-                    <a href='https://www.mongodb.com/' target="_blank" rel="noopener noreferrer" >
+                    <a href='https://nodejs.org/en/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
                             <p>MongoDB API</p>
                             <i className="material-icons next-icon">navigate_next</i>
