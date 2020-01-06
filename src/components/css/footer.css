@@ -36,5 +36,5 @@ img {
 }
 
 .contact-container{
-    display: inline;
+    display: inline !important;
 }
