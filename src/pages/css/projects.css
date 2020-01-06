@@ -2,6 +2,16 @@
     color: black !important;
 }
 
+.card-image{
+    background-color: #c3c3c3;
+}
+
+.slugSearch-img{
+    width: 45% !important;
+    display:block;
+    margin:auto;
+}
+
 .project-title{
     color: #cc8b14;
     margin-top: 0px !important;

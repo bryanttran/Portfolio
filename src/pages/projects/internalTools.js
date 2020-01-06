@@ -28,7 +28,7 @@ const internalTools = () => (
             </p>
             <h4>Architecture design</h4>
             <p>
-                There are two iterations of the Internal Tools project. Both use the component framework, ReactJS but the backend specs changed due to which database was required during development. The first iteration used NodeJS' <a href='https://expressjs.com/' target="_blank" rel="noopener noreferrer">ExpressJS</a> to make API calls to the MongoDB database. The second iteration used the open source <a href='https://github.com/oracle/node-oracledb' target="_blank" rel="noopener noreferrer">OracleDB</a>, maintained by Oracle, to connect and perform CRUD operations on InfoIMAGE's Oracle SQL database. 
+                There are two iterations of the Internal Tools project. Both use the component framework, <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer" >ReactJS</a> but the backend specs changed due to which database was required during development. The first iteration used NodeJS's <a href='https://expressjs.com/' target="_blank" rel="noopener noreferrer">ExpressJS</a> to make API calls to the MongoDB database. The second iteration used the open source <a href='https://github.com/oracle/node-oracledb' target="_blank" rel="noopener noreferrer">OracleDB</a>, maintained by Oracle, to connect and perform CRUD operations on InfoIMAGE's Oracle SQL database. 
             </p>
             <InternalToolsImage/>
 

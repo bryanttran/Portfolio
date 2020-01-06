@@ -12,9 +12,9 @@ import javascriptImg from '../../images/stack/javascript.svg'
 
 import '../css/internalTools.css'
 
-const internalTools = () => (
+const portfolio2017 = () => (
   <Layout>
-    <SEO title='Internal Tools' />
+    <SEO title='Portfolio 2017' />
     <section className='center-align intro'>
       <h3>High level overview of the Internal Tools project</h3>
     </section>
@@ -29,7 +29,7 @@ const internalTools = () => (
             <p>
                 Having minimal experience with just the fundamentals of Front End Development at the time, I decided to be as barebone with the project as I could. I decided to stick with the basics and learned when I wanted the DOM to change to my liking rather than using the magic of JavaScript and CSS frameworks or libraries. 
             </p>
-            <InternalToolsImage/>
+            <Portfolio2017Image/>
 
         </div>
         <div className='col s12 l4 sidebar-wrapper'>
@@ -85,10 +85,10 @@ const internalTools = () => (
   </Layout>
 )
 
-export const InternalToolsImage = () => {
+export const Portfolio2017Image = () => {
     const query = useStaticQuery(graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "projects/internalTools.png" }) {
+        placeholderImage: file(relativePath: { eq: "projects/portfolio2017.png" }) {
           childImageSharp {
             fluid(maxWidth: 800 ) {
               ...GatsbyImageSharpFluid
@@ -103,4 +103,4 @@ export const InternalToolsImage = () => {
     />
   }
 
-export default internalTools
+export default portfolio2017

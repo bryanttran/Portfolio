@@ -8,6 +8,10 @@ import './css/projects.css'
 
 import internalTools from '../images/BryantTran.jpg'
 
+import internalToolsCover from '../images/projects/internalToolsCover.png'
+import portfolioCover from '../images/projects/portfolioCover.png'
+import slugSearchCover from '../images/projects/logo.png'
+
 const Projects = () => (
   <Layout>
     <SEO title='Projects' />
@@ -19,7 +23,7 @@ const Projects = () => (
         <Link to='/projects/portfolio2020/' class='col s12'>
           <div className='card hoverable'>
             <div className='card-image'>
-              <img src={internalTools} alt='internal-tools-image'/>
+              <img src={portfolioCover} alt='internal-tools-image'/>
             </div>
             <div className='card-content'>
               <h5 className='project-title'>Portfolio 2020</h5>
@@ -31,7 +35,7 @@ const Projects = () => (
         <Link to='/projects/internalTools/' class='col s12'>
           <div className='card hoverable'>
             <div className='card-image'>
-              <img src={internalTools} alt='internal-tools-image'/>
+              <img src={internalToolsCover} alt='internal-tools-image'/>
             </div>
             <div className='card-content'>
               <h5 className='project-title'>InfoIMAGE Internal Tools </h5>
@@ -43,7 +47,7 @@ const Projects = () => (
         <Link to='/projects/portfolio2017/' class='col s12'>
           <div className='card hoverable'>
             <div className='card-image'>
-              <img src={internalTools} alt='internal-tools-image'/>
+              <img src={portfolioCover} alt='internal-tools-image'/>
             </div>
             <div className='card-content'>
               <h5 className='project-title'>Portfolio 2017 </h5>
@@ -55,12 +59,12 @@ const Projects = () => (
         <Link to='/projects/slugSearch/' class='col s12'>
           <div className='card hoverable'>
             <div className='card-image'>
-              <img src={internalTools} alt='internal-tools-image'/>
+              <img src={slugSearchCover} alt='internal-tools-image' className='slugSearch-img'/>
             </div>
             <div className='card-content'>
               <h5 className='project-title'>SlugSearch</h5>
               <h6>FULL STACK DEVELOPMENT</h6>
-              <p className='project-description'>A mobile application developed for students at UCSC to search for classes in a more efficient manner.</p>
+              <p className='project-description'>A hybrid web application developed for students at UCSC to search for classes in a more efficient manner.</p>
             </div>
           </div>
         </Link>

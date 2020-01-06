@@ -13,9 +13,9 @@ import materializeImg from '../../images/stack/materializecss.svg'
 
 import '../css/internalTools.css'
 
-const internalTools = () => (
+const portfolio2020 = () => (
   <Layout>
-    <SEO title='Internal Tools' />
+    <SEO title='Portfolio 2020' />
     <section className='center-align intro'>
       <h3>High level overview of the Portfolio 2020 project</h3>
     </section>
@@ -24,13 +24,13 @@ const internalTools = () => (
 
             <h4>Website design</h4>
             <p>
-                To create a simplistic yet strong portfolio to showcase my most recent projects.
+                Create a simplistic yet strong portfolio to showcase my most recent projects.
             </p>
             <h4>Architecture design</h4>
             <p>
-                Since this would only be a Front End Web application, I wanted to use a fast and simplistic framework. Having my most recent project be based on <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer" >ReactJS</a>, what better way than to use a Progressive Web App generator which uses ReactJS. Needing a CSS framework to help alleviate simple CSS jobs, I decided to use <a href='https://materializecss.com/' target="_blank" rel="noopener noreferrer" >MaterializeCSS</a>. 
+                Since this would only be a Front End Web application, I wanted to use a fast and simplistic framework. Having my most recent project be based on <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer" >ReactJS</a>, what better way than to use a Progressive Web App generator which uses ReactJS, <a href='https://www.gatsbyjs.org/' target="_blank" rel="noopener noreferrer" >GatsbyJS</a>. Needing a CSS framework to help alleviate simple CSS jobs, I decided to use <a href='https://materializecss.com/' target="_blank" rel="noopener noreferrer" >MaterializeCSS</a>. 
             </p>
-            <InternalToolsImage/>
+            <Portfolio2020Image/>
 
         </div>
         <div className='col s12 l4 sidebar-wrapper'>
@@ -104,10 +104,10 @@ const internalTools = () => (
   </Layout>
 )
 
-export const InternalToolsImage = () => {
+export const Portfolio2020Image = () => {
     const query = useStaticQuery(graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "projects/internalTools.png" }) {
+        placeholderImage: file(relativePath: { eq: "projects/portfolio2020.png" }) {
           childImageSharp {
             fluid(maxWidth: 800 ) {
               ...GatsbyImageSharpFluid
@@ -122,4 +122,4 @@ export const InternalToolsImage = () => {
     />
   }
 
-export default internalTools
+export default portfolio2020
