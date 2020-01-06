@@ -14,7 +14,7 @@ export class footer extends Component {
             <div className='center-align valign-wrapper'>
                 <div className='center-align footer-container'>
                   <h3 className='footer-title'>Lets get in touch!</h3>
-                        <div>
+                        <div className='contact-container'>
                             <a href='https://www.linkedin.com/in/bryanttran1/' target="_blank" rel="noopener noreferrer"  >
                             <ReactTooltip className='footer-tooltip' place="top" type="dark" effect="solid"/>
                                 <img className='footer-image' src={LinkedIn} data-tip="LinkedIn"/>
@@ -35,19 +35,13 @@ export class footer extends Component {
                                 <img className='footer-image' src={Resume} data-tip="Resume"/> 
                             </a>
                         </div>
-                        
-                    
                     <br />
-
                     <p className='center-block footer-text'>
                         Copyright Bryant Tran {new Date().getFullYear()} <br />
                         Website built using GatsbyJS and Materialize CSS.
                     </p>
-                    
                 </div>
-                
             </div>
-            
         )
     }
 }
