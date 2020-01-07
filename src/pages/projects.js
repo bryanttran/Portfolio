@@ -6,7 +6,6 @@ import SEO from '../components/seo'
 
 import './css/projects.css'
 
-import internalTools from '../images/BryantTran.jpg'
 
 import internalToolsCover from '../images/projects/internalToolsCover.png'
 import portfolioCover from '../images/projects/portfolioCover.png'
@@ -23,7 +22,7 @@ const Projects = () => (
         <Link to='/projects/portfolio2020/' class='col s12'>
           <div className='card hoverable'>
             <div className='card-image'>
-              <img src={portfolioCover} alt='internal-tools-image'/>
+              <img src={portfolioCover} alt='internal-tools'/>
             </div>
             <div className='card-content'>
               <h5 className='project-title'>Portfolio 2020</h5>
@@ -35,7 +34,7 @@ const Projects = () => (
         <Link to='/projects/internalTools/' class='col s12'>
           <div className='card hoverable'>
             <div className='card-image'>
-              <img src={internalToolsCover} alt='internal-tools-image'/>
+              <img src={internalToolsCover} alt='internal-tools'/>
             </div>
             <div className='card-content'>
               <h5 className='project-title'>InfoIMAGE Internal Tools </h5>
@@ -47,7 +46,7 @@ const Projects = () => (
         <Link to='/projects/portfolio2017/' class='col s12'>
           <div className='card hoverable'>
             <div className='card-image'>
-              <img src={portfolioCover} alt='internal-tools-image'/>
+              <img src={portfolioCover} alt='internal-tools'/>
             </div>
             <div className='card-content'>
               <h5 className='project-title'>Portfolio 2017 </h5>
@@ -59,7 +58,7 @@ const Projects = () => (
         <Link to='/projects/slugSearch/' class='col s12'>
           <div className='card hoverable'>
             <div className='card-image'>
-              <img src={slugSearchCover} alt='internal-tools-image' className='slugSearch-img'/>
+              <img src={slugSearchCover} alt='internal-tools' className='slugSearch-img'/>
             </div>
             <div className='card-content'>
               <h5 className='project-title'>SlugSearch</h5>

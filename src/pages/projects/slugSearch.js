@@ -51,7 +51,7 @@ const slugSearch = () => (
                 </h4>
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={ionicImg} alt='react-image' className='image-containter'/>
+                        <img src={ionicImg} alt='Ionic' className='image-containter'/>
                     </div>
                     <a href='https://ionicframework.com/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -63,7 +63,7 @@ const slugSearch = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={angularImg} alt='react-image' className='image-containter'/>
+                        <img src={angularImg} alt='AngularJS' className='image-containter'/>
                     </div>
                     <a href='https://angular.io/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -75,7 +75,7 @@ const slugSearch = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={javascriptImg} alt='react-image' className='image-containter'/>
+                        <img src={javascriptImg} alt='Javascript' className='image-containter'/>
                     </div>
                         <div className="col s9 stack-description valign-wrapper">
                             <p>Javascript</p>

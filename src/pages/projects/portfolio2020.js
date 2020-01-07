@@ -52,7 +52,7 @@ const portfolio2020 = () => (
                 </h4>
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={gatsbyImg} alt='GatsbyJS-image' className='image-containter'/>
+                        <img src={gatsbyImg} alt='GatsbyJS' className='image-containter'/>
                     </div>
                     <a href='https://www.gatsbyjs.org/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -64,7 +64,7 @@ const portfolio2020 = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={graphQLImg} alt='GraphQL-image' className='image-containter'/>
+                        <img src={graphQLImg} alt='GraphQL' className='image-containter'/>
                     </div>
                     <a href='https://graphql.org/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -76,7 +76,7 @@ const portfolio2020 = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={nodeImg} alt='NodeJS-image' className='image-containter'/>
+                        <img src={nodeImg} alt='NodeJS' className='image-containter'/>
                     </div>
                     <a href='https://www.nodejs.org/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -88,7 +88,7 @@ const portfolio2020 = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={materializeImg} alt='MaterializeCSS-image' className='image-containter'/>
+                        <img src={materializeImg} alt='MaterializeCSS' className='image-containter'/>
                     </div>
                     <a href='https://materializecss.com/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">

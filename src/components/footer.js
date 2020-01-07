@@ -8,7 +8,6 @@ import './css/footer.css'
 import ReactTooltip from 'react-tooltip'
 
 export class footer extends Component {
-    
     render() {
         return (
             <div className='center-align valign-wrapper'>
@@ -17,22 +16,22 @@ export class footer extends Component {
                         <div className='contact-container'>
                             <a href='https://www.linkedin.com/in/bryanttran1/' target="_blank" rel="noopener noreferrer"  >
                             <ReactTooltip className='footer-tooltip' place="top" type="dark" effect="solid"/>
-                                <img className='footer-image' src={LinkedIn} data-tip="LinkedIn"/>
+                                <img className='footer-image' src={LinkedIn} data-tip="LinkedIn" alt='LinkedIn'/>
                             </a>
 
                             <a href='https://github.com/bryanttran' target="_blank" rel="noopener noreferrer" >
                                 <ReactTooltip className='footer-tooltip' place="top" type="dark" effect="solid"/>
-                                <img className='tooltipped footer-image' src={Github} data-tip="Github"/>
+                                <img className='tooltipped footer-image' src={Github} data-tip="Github" alt='Github'/>
                             </a>
 
                             <a href='mailto:bryant.t.tran1@gmail.com' >
                                 <ReactTooltip className='footer-tooltip' place="top" type="dark" effect="solid"/>
-                                <img className='tooltipped footer-image' src={Email} data-tip="Email"/>
+                                <img className='tooltipped footer-image' src={Email} data-tip="Email" alt='Email'/>
                             </a>
 
-                            <a href='' target="_blank" rel="noopener noreferrer" > 
+                            <a href='https://github.com/bryanttran' target="_blank" rel="noopener noreferrer" > 
                                 <ReactTooltip className='footer-tooltip' place="top" type="dark" effect="solid"/>
-                                <img className='footer-image' src={Resume} data-tip="Resume"/> 
+                                <img className='footer-image' src={Resume} data-tip="Resume" alt='Resume'/> 
                             </a>
                         </div>
                     <br />

@@ -52,7 +52,7 @@ const internalTools = () => (
                 </h4>
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={reactImg} alt='ReactJS-image' className='image-containter'/>
+                        <img src={reactImg} alt='ReactJS' className='image-containter'/>
                     </div>
                     <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -64,7 +64,7 @@ const internalTools = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={nodeImg} alt='NodeJS-image' className='image-containter'/>
+                        <img src={nodeImg} alt='NodeJS' className='image-containter'/>
                     </div>
                     <a href='https://nodejs.org/en/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -76,7 +76,7 @@ const internalTools = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={oracleImg} alt='OracleDB-image' className='image-containter'/>
+                        <img src={oracleImg} alt='OracleDB' className='image-containter'/>
                     </div>
                     <a href='https://www.oracle.com/database/technologies/appdev/sql.html' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
@@ -88,7 +88,7 @@ const internalTools = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={mongoImg} alt='MongoDB-image' className='image-containter'/>
+                        <img src={mongoImg} alt='MongoDB' className='image-containter'/>
                     </div>
                     <a href='https://www.mongodb.com/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">

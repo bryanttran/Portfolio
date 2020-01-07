@@ -51,7 +51,7 @@ const portfolio2017 = () => (
                 </h4>
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={htmlImg} alt='react-image' className='image-containter'/>
+                        <img src={htmlImg} alt='HTML5' className='image-containter'/>
                     </div>
                         <div className="col s9 stack-description valign-wrapper">
                             <p>HTML5</p>
@@ -61,7 +61,7 @@ const portfolio2017 = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={cssImg} alt='react-image' className='image-containter'/>
+                        <img src={cssImg} alt='CSS3' className='image-containter'/>
                     </div>
                         <div className="col s9 stack-description valign-wrapper">
                             <p>CSS3</p>
@@ -71,7 +71,7 @@ const portfolio2017 = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={javascriptImg} alt='react-image' className='image-containter'/>
+                        <img src={javascriptImg} alt='Javascript' className='image-containter'/>
                     </div>
                         <div className="col s9 stack-description valign-wrapper">
                             <p>Javascript</p>
