@@ -4,14 +4,14 @@ import Github from '../images/Github.svg'
 import LinkedIn from '../images/LinkedIn.svg'
 import Resume from '../images/Resume.svg'
 import Email from '../images/Email.svg'
-import './css/footer.css'
 import ReactTooltip from 'react-tooltip'
+import './css/footer.css'
 
 export class footer extends Component {
     render() {
         return (
             <div className='center-align valign-wrapper'>
-                <div className='center-align footer-container'>
+                <div className='footer-container'>
                   <h3 className='footer-title'>Lets get in touch!</h3>
                         <div className='contact-container'>
                             <a href='https://www.linkedin.com/in/bryanttran1/' target="_blank" rel="noopener noreferrer"  >
