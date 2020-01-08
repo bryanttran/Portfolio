@@ -27,7 +27,7 @@ const Projects = () => (
             <div className='card-content'>
               <h5 className='project-title'>Portfolio 2020</h5>
               <h6>FRONT END DEVELOPMENT</h6>
-              <p className='project-description'>Enhanced and updated portfolio to present my current skillset and projects.</p>
+              <p className='project-description'>Enhanced and updated portfolio to present my current skill set and projects.</p>
             </div>
           </div>
         </Link>

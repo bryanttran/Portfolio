@@ -1,13 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
+import "./css/layout.css"
 
+import "./css/materialize.min.css"
 import Header from "./header"
 import Footer from "./footer"
-import "./css/layout.css"
-import "./css/materialize.min.css"
+
 
 const Layout = ({ children }) => {
-  return (
+  return ( 
     <>
       <Header />
       <div

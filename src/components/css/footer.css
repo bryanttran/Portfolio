@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: #538fdc   ;
+    background-color: #538fdc;
     width: 100%;
     height: auto;
     padding-top: 10px;
@@ -35,6 +35,10 @@ img {
     font-size: 14px;
 }
 
-.contact-container{
-    display: inline-block !important;
+div.contact-container{
+    display: inline-block;
+}
+
+.contact-container:after{
+    display: block;
 }
