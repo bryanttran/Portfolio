@@ -17,7 +17,7 @@ const portfolio2020 = () => (
   <Layout>
     <SEO title='Portfolio 2020' />
     <section className='center-align intro'>
-      <h3>High level overview of the Portfolio 2020 project</h3>
+      <h3>High level overview of the Portfolio 2020 Project</h3>
     </section>
     <div className='row'>
         <div className='col s12 l8 content-wrapper'>
@@ -39,7 +39,7 @@ const portfolio2020 = () => (
                     Portfolio 2020
                 </h4>
                 <p>
-                    Enhanced and updated portfolio to present my current skillset and projects.
+                    Enhanced and updated previous portfolio to present my current skillset and projects.
                 </p>
                 <a href='https://github.com/bryanttran/Portfolio' target="_blank" rel="noopener noreferrer" >
                 <button class="btn waves-effect waves-light" type="submit" name="action">View source code                </button>

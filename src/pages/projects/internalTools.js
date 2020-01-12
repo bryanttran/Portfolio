@@ -17,18 +17,18 @@ const internalTools = () => (
   <Layout>
     <SEO title='Internal Tools' />
     <section className='center-align intro'>
-      <h3>High level overview of the Internal Tools project</h3>
+      <h3>High level overview of the Internal Tools Project</h3>
     </section>
     <div className='row'>
         <div className='col s12 l8 content-wrapper'>
 
             <h4>Website design</h4>
             <p>
-                Offset simple Oracle database CRUD operations such that non-technical departments can change the database without giving them access and teaching them SQL.
+                Offset simple Oracle database CRUD operations such that non-technical departments can alter the database without giving them access and teaching them SQL.
             </p>
             <h4>Architecture design</h4>
             <p>
-                There are two iterations of the Internal Tools project. Both use the component framework, <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer" >ReactJS</a> but the backend specs changed due to which database was required during development. The first iteration used NodeJS's <a href='https://expressjs.com/' target="_blank" rel="noopener noreferrer">ExpressJS</a> to make API calls to the MongoDB database. The second iteration used the open source <a href='https://github.com/oracle/node-oracledb' target="_blank" rel="noopener noreferrer">OracleDB</a>, maintained by Oracle, to connect and perform CRUD operations on InfoIMAGE's Oracle SQL database. 
+                There are two iterations of the Internal Tools Project. Both use the component front end framework, <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer" >ReactJS</a> but the back end specs changed due to which database was required during development. The first iteration used NodeJS's <a href='https://expressjs.com/' target="_blank" rel="noopener noreferrer">ExpressJS</a> to make API calls to the <a href='https://www.mongodb.com/' target="_blank" rel="noopener noreferrer" >MongoDB</a>. The second iteration used the open source <a href='https://github.com/oracle/node-oracledb' target="_blank" rel="noopener noreferrer">OracleDB</a>, maintained by Oracle, to connect and perform CRUD operations on InfoIMAGE's Oracle SQL database. 
             </p>
             <InternalToolsImage/>
 
@@ -76,11 +76,11 @@ const internalTools = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={oracleImg} alt='OracleDB' className='image-containter'/>
+                        <img src={mongoImg} alt='MongoDB' className='image-containter'/>
                     </div>
-                    <a href='https://www.oracle.com/database/technologies/appdev/sql.html' target="_blank" rel="noopener noreferrer" >
+                    <a href='https://www.mongodb.com/' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
-                            <p>Oracle SQL</p>
+                            <p>MongoDB</p>
                             <i className="material-icons next-icon">navigate_next</i>
                         </div>
                     </a>
@@ -88,16 +88,16 @@ const internalTools = () => (
 
                 <div className='row stack-row'>
                     <div className="col s2 center-align">
-                        <img src={mongoImg} alt='MongoDB' className='image-containter'/>
+                        <img src={oracleImg} alt='OracleDB' className='image-containter'/>
                     </div>
-                    <a href='https://www.mongodb.com/' target="_blank" rel="noopener noreferrer" >
+                    <a href='https://www.oracle.com/database/technologies/appdev/sql.html' target="_blank" rel="noopener noreferrer" >
                         <div className="col s9 stack-description valign-wrapper">
-                            <p>MongoDB API</p>
+                            <p>OracleDB</p>
                             <i className="material-icons next-icon">navigate_next</i>
                         </div>
                     </a>
                 </div>
-
+                
             </div>
         </div>
     </div>

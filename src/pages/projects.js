@@ -27,7 +27,7 @@ const Projects = () => (
             <div className='card-content'>
               <h5 className='project-title'>Portfolio 2020</h5>
               <h6>FRONT END DEVELOPMENT</h6>
-              <p className='project-description'>Enhanced and updated portfolio to present my current skill set and projects.</p>
+              <p className='project-description'>Enhanced and updated previous portfolio to present my current skill set and projects.</p>
             </div>
           </div>
         </Link>
@@ -51,7 +51,7 @@ const Projects = () => (
             <div className='card-content'>
               <h5 className='project-title'>Portfolio 2017 </h5>
               <h6>FRONT END DEVELOPMENT</h6>
-              <p className='project-description'>First implementation barebone front end portfolio to showcase experience at the time.</p>
+              <p className='project-description'>First implementation of a barebone front end portfolio to showcase experience at the time.</p>
             </div>
           </div>
         </Link>

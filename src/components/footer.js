@@ -7,6 +7,8 @@ import Email from '../images/Email.svg'
 import './css/footer.css'
 import ReactTooltip from 'react-tooltip'
 
+import resumePDF from '../static/BryantTran_Resume.pdf';
+
 export class footer extends Component {
     render() {
         return (
@@ -28,7 +30,7 @@ export class footer extends Component {
                                 <img className='tooltipped footer-image' src={Email} data-tip="Email" alt='Email'/>
                             </a>
 
-                            <a href='https://github.com/bryanttran' target="_blank" rel="noopener noreferrer" > 
+                            <a href={resumePDF} type="application/pdf" download="BryantTran_Resume.pdf" target="_blank" rel="noopener noreferrer" > 
                                 <img className='footer-image' src={Resume} data-tip="Resume" alt='Resume'/> 
                             </a>
                         </div>

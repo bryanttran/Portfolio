@@ -16,7 +16,7 @@ const portfolio2017 = () => (
   <Layout>
     <SEO title='Portfolio 2017' />
     <section className='center-align intro'>
-      <h3>High level overview of the Internal Tools project</h3>
+      <h3>High level overview of the Internal Tools Project</h3>
     </section>
     <div className='row'>
         <div className='col s12 l8 content-wrapper'>
@@ -27,7 +27,7 @@ const portfolio2017 = () => (
             </p>
             <h4>Architecture design</h4>
             <p>
-                Having minimal experience with just the fundamentals of Front End Development at the time, I decided to be as barebone with the project as I could. I decided to stick with the basics and learned when I wanted the DOM to change to my liking rather than using the magic of JavaScript and CSS frameworks or libraries. 
+                Having minimal experience with just the fundamentals of front end development at the time, I decided to be as barebone with the project as I could. I decided to stick with the basics and learned the necessities when I wanted the DOM to change to my liking. This is so I could not use the magic of JavaScript and CSS frameworks or libraries. 
             </p>
             <Portfolio2017Image/>
 
@@ -38,7 +38,7 @@ const portfolio2017 = () => (
                     Portfolio 2017
                 </h4>
                 <p>
-                First implementation barebone front end portfolio to showcase experience at the time.
+                First implementation of a barebone front end portfolio to showcase experience at the time.
                 </p>
                 <a href='https://github.com/bryanttran/bryanttran.github.io' target="_blank" rel="noopener noreferrer" >
                 <button class="btn waves-effect waves-light" type="submit" name="action">View source code                </button>

@@ -16,18 +16,18 @@ const slugSearch = () => (
   <Layout>
     <SEO title='Slug Search' />
     <section className='center-align intro'>
-      <h3>High level overview of the SlugSearch project</h3>
+      <h3>High level overview of the SlugSearch Project</h3>
     </section>
     <div className='row'>
         <div className='col s12 l8 content-wrapper'>
 
             <h4>Website design</h4>
             <p>
-                Used to create a hybrid web application which scrapes the UC Santa Cruz class website to solve the issue of UI/UX compatibility on mobile devices. 
+                Used to create a hybrid web application which scraped the UC Santa Cruz class website to solve the issue of UI/UX compatibility on mobile devices. 
             </p>
             <h4>Architecture design</h4>
             <p>
-                The team members and I had decided to use the Ionic framework which utilized Angular 1 as the front end framework at the time. There was no fancy framework doing all the magic, just simple JavaScript GET requests and the team manually parsed the data received. We tried to keep the hybrid web application as robust as we could in both our front and back end. 
+                The team members and I had decided to use the Ionic framework which utilized Angular 1 as the front end framework. For the back end portion, there was no fancy framework doing all the magic, just simple JavaScript GET requests and the team manually parsed the data returned. We tried to keep the hybrid web application as robust as we could in both our front and back end. 
             </p>
             <SlugSearchImage/>
 
