@@ -9,6 +9,7 @@ import './css/projects.css'
 
 import internalToolsCover from '../images/projects/internalToolsCover.png'
 import portfolioCover from '../images/projects/portfolioCover.png'
+import stockJournalCover from '../images/projects/stockJournalCover.png'
 import slugSearchCover from '../images/projects/logo.png'
 
 const Projects = () => (
@@ -19,10 +20,22 @@ const Projects = () => (
     </section>
     <div className='container'>
       <div className='row '>
+      <Link to='/projects/stockJournal/' class='col s12'>
+          <div className='card hoverable'>
+            <div className='card-image'>
+              <img src={stockJournalCover} alt='stockJounal'/>
+            </div>
+            <div className='card-content'>
+              <h5 className='project-title'>Stock Journal</h5>
+              <h6>FRONT END DEVELOPMENT</h6>
+              <p className='project-description'>Created a stock journal to record the reason I went into certain stock plays.</p>
+            </div>
+          </div>
+        </Link>
         <Link to='/projects/portfolio2020/' class='col s12'>
           <div className='card hoverable'>
             <div className='card-image'>
-              <img src={portfolioCover} alt='internal-tools'/>
+              <img src={portfolioCover} alt='portfolio2020'/>
             </div>
             <div className='card-content'>
               <h5 className='project-title'>Portfolio 2020</h5>
